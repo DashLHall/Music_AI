@@ -70,3 +70,26 @@ li {
   border-radius: 4px;
   text-align: left;
 }
+
+.table-container {
+  overflow: auto;
+  max-height: 500px;
+  max-width: 100%;
+  border: 1px solid blue;
+  padding: 10px;
+}
+
+.table {
+  border: solid 1px blue;
+  width: 1000%;
+  table-layout: fixed;
+}
+
+.header-cell {
+  border: solid 1px red;
+  background: aliceblue;
+}
+
+.body-cell {
+  border: solid 1px gray;
+}
